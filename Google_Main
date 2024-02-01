@@ -5,7 +5,12 @@
         <title>Google Main</title>
     </head>
     <body>
-        <a href="Image Search">Click Here</a>
-        <a href="Advanced Search">Click Here</a>
+        <form>
+            <input type="text" placeholder="Full Name" name="full_name">
+            <input type="submit">
+        </form>
+        
+        <a href="image_search.html">Click Here</a>
+        <a href="advanced_search.html">Click Here</a>
     </body>
 </html>
