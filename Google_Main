@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Google Main</title>
+    </head>
+    <body>
+        <a href="Image Search">Click Here</a>
+        <a href="Advanced Search">Click Here</a>
+    </body>
+</html>
