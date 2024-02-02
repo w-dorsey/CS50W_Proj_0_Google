@@ -8,16 +8,34 @@
         <div>
             GOOGLE ADVANCED SEARCH
         </div>
-        <form>
-            <input type="text" placeholder="Include All of These Words" name="as_q">
-            <input type="text" placeholder="Type Exact Phrase" name="as_epq">
-            <input type="text" placeholder="Include Any of These Words" name="as_oq">
-            <input type="text" placeholder="Exclude These Words" name="as_eq">
-            <input type="text" placeholder="Number Range Min" name="as_nlo">
-            <input type="text" placeholder="Number Range Max" name="as_nhi">
+        <form action="https://www.google.com/search">
+            <div>
+                Include all of these words:
+                <input type="text" placeholder="Include All of These Words" name="as_q">
+            </div>
+            <div>
+                Include the exact phrase:
+                <input type="text" placeholder="Type Exact Phrase" name="as_epq">
+            </div>
+            <div>
+                Include any of these words:
+                <input type="text" placeholder="Include Any of These Words" name="as_oq">
+            </div>
+            <div>
+                Include none of these words:
+                <input type="text" placeholder="Exclude These Words" name="as_eq">
+            </div>
+            <div>
+                Include the following number range:
+                <input type="text" placeholder="Number Range Min" name="as_nlo">
+                <input type="text" placeholder="Number Range Max" name="as_nhi">
+            </div>
+            <div>
+                <input type="text" placeholder="Number Range Max" name="lr">
+            </div>
             <input type="submit">
         </form>
-        <a href="google_main.html">Main</a>
+        <a href="index.html">Main</a>
         <a href="img_search.html">Images</a>
         <a href="adv_search.html">Advanced</a>
     </body>
