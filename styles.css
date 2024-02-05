@@ -3,10 +3,15 @@
     width: 340px;
     border-radius: 20px;
 }
+
+.input_text_advanced {
+    height: 30px;
+    width: 540px;
+}
+
 .input_number {
-    height: 40px;
-    width: 170px;
-    border-radius: 20px;
+    height: 30px;
+    width: 260px;
 }
 
 .search_button {
@@ -38,7 +43,7 @@
     padding: 0px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    grid-template-columns: 200px 400px auto;
+    grid-template-columns: 200px 600px auto;
 }
 
 .grid-item {
