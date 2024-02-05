@@ -70,3 +70,10 @@
     padding: 20px;
     text-align: left;
 }
+
+.adv_search {
+    height: 30px;
+    background-color: rgb(45, 160, 243);
+    color: white;
+    font-weight: bold;
+}
